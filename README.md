@@ -2,7 +2,9 @@
 
 Representa o projeto de backend do Campeonato de Filmes.
 
-# Para executar a aplicação será necessário baixar os projetos de frontend e de backend, e executar os dois projetos dentro da IDE
+## Para executar a aplicação será necessário baixar os projetos de frontend e de backend, e executar os dois projetos dentro da IDE
+
+- https://github.com/marcos-cruz/CopaApp.git
 
 ## Instruções para executar o projeto de Backend
 
