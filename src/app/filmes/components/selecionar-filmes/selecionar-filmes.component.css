@@ -1,0 +1,49 @@
+/* Estilos da quantidade de filmes participantes */
+.box {
+  margin: 30px;
+}
+
+.filmesSelecionados {
+  font-size: 14px;
+  color: #fff;
+}
+
+.button {
+  background-color: #343434;
+  border: none;
+  color: #fff;
+  padding: 12px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  float: right;
+}
+/* Fim dos Estilos da quantidade de filmes participantes */
+
+/* Estilos dos Cards dos Filmes */
+label {
+  display: inline-block;
+}
+
+input {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.titulo-filme {
+  padding-left: 6px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.ano-filme {
+  font-size: 10px;
+  font-weight: normal;
+}
+
+/* Fim dos Estilos dos Cards dos Filmes */

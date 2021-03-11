@@ -1,0 +1,38 @@
+<app-header tituloFase={{tituloFase}} infoFase={{infoFase}}></app-header>
+
+
+<!-- Formulário com a lista de filmes para seleção -->
+<form [formGroup]="formulario" (ngSubmit)="submit()">
+
+<!-- Quantidade de Filmes selecionados -->
+<div class="box row">
+    <div class="col-sm-6 filmesSelecionados">
+        <span [innerText]="selecionados"></span>
+    </div>
+    <div class="col-sm-6">
+        <button class="button" [disabled]="enviando" type="submit">Gerar Meu Campeonato</button>
+    </div>
+</div>
+<!-- Fim Quantidade de Filmes selecionados -->
+
+
+    <div id="filmes" class="box row">
+        <div *ngFor="let filme of filmesFormArray.controls; let i = index" class="col-sm-3" formArrayName="filmes">
+            <div class="card">
+                <div class="card-body">
+                    <label>
+                        <input type="checkbox" [formControlName]="i">
+                        <span class="titulo-filme">
+                            {{ listaDeFilmesParticipantes[i].titulo }}
+                            <br>
+                            <div class="ano-filme">{{ listaDeFilmesParticipantes[i].ano }}</div>
+                        </span>
+                    </label>
+                </div>
+            </div>
+            <br>
+        </div>
+    </div>
+
+</form>
+<!-- Fim Formulário com a lista de filmes para seleção -->

@@ -1,0 +1,23 @@
+.box {
+  margin: 30px;
+}
+
+.classificacao-geral {
+  background-color: #fff;
+  width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.posicao {
+  background-color: #6e6e6e;
+  padding: 20px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.titulo-posicao {
+  background-color: #fff;
+  padding: 18px;
+  display: inline-block;
+}

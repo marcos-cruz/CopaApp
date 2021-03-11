@@ -1,27 +1,35 @@
-# CopaApp
+# CopaFilmes
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.2.
+Representa o projeto de backend do Campeonato de Filmes.
 
-## Development server
+# Para executar a aplicação será necessário baixar os projetos de frontend e de backend, e executar os dois projetos dentro da IDE
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Instruções para executar o projeto de Backend
 
-## Code scaffolding
+- Baixar o projeto de backend CopaFilmes (este projeto)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Baixar o projeto de frontend CopaApp
 
-## Build
+- Abrir este projeto de backend no Visual Studio Community ou Professional
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+- Executar o build da solution
 
-## Running unit tests
+- Certificar-se que o projeto de Api (Bigai.CopaFilmes.Api) esta setado como projeto startup
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Presione F5 para rodar a aplicação
 
-## Running end-to-end tests
+Será aberto no browser default a documentação da API no endereço `https://localhost:44368/swagger/index.html`
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Instruções para executar o projeto de Frontend
 
-## Further help
+- Abrir o Command prompt
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- Ir até a pasta onde foi baixado o projeto de frontend.
+
+- Digite `code .` e pressione enter
+
+- Clique em Terminal e em seguida new Terminal. Se preferir pressione simultaneamente `Ctrl + Shift + ' `
+
+- No terminal digite `ng serve --proxy-config proxy.conf.js` e pressione enter
+
+- Abra uma nova guia no browser e digite `http://localhost:4200/` e pressione enter

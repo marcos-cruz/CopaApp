@@ -1,0 +1,8 @@
+<app-header tituloFase={{tituloFase}} infoFase={{infoFase}}></app-header>
+
+<div *ngFor="let filme of filmesCampeoes; let i = index" class="box row">
+    <div class="classificacao-geral">
+        <span class="posicao">{{i + 1}}º</span>
+        <span class="titulo-posicao">{{filme.titulo}}</span>
+    </div>
+</div>
